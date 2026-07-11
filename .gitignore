@@ -4,16 +4,16 @@ data/interim/*
 data/processed/*
 !data/**/.gitkeep
 
-# models
-models/*.pkl
-models/*.joblib
-
 # python
 __pycache__/
 *.pyc
 .venv/
+.venv312/
 venv/
 .ipynb_checkpoints/
+
+# temporary
+temp/
 
 # reports
 reports/figures/*
